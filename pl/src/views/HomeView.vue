@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import TheWelcome from "../components/TheWelcome.vue";
 import GreetingSection from "@/sections/GreetingSection.vue";
 import ProfitSection from "@/sections/ProfitSection.vue";
 </script>
