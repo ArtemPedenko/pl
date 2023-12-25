@@ -1,16 +1,12 @@
 <script setup lang="ts">
 import TheWelcome from "../components/TheWelcome.vue";
-import GreetingBlock from "../blocks/GreetingBlock.vue";
+import GreetingSection from "@/sections/GreetingSection.vue";
+import ProfitSection from "@/sections/ProfitSection.vue";
 </script>
 
 <template>
   <main class="max-w-[1920px]">
-    <GreetingBlock />
+    <GreetingSection />
+    <ProfitSection />
   </main>
 </template>
-
-<!-- <template>
-  <main>
-    <TheWelcome />
-  </main>
-</template> -->
