@@ -13,8 +13,17 @@
       <p class="max-w-[400px] text-[24px]">
         Просим Вас пройти регистрацию. До встречи!
       </p>
-      <div class="border border-red-600 h-[80px] w-[415px] flex text-[24px]">
+      <div
+        class="border border-red-600 h-[80px] w-[415px] flex text-[24px] relative"
+      >
         <Button>Пройти регистрацию</Button>
+        <img
+          alt="Vue logo"
+          class="absolute -left-[65px] -bottom-[10px] w-[45px] h-[101px]"
+          src="@/assets/arrow.svg"
+          width="180"
+          height="37"
+        />
       </div>
     </div>
   </div>
