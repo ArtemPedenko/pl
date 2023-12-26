@@ -2,7 +2,7 @@
 
 <template>
   <header
-    class="bg-red-700 max-w-[1200px] h-[80px] m-auto flex items-center justify-between text-sm"
+    class="max-w-[1200px] h-[80px] m-auto flex items-center justify-between text-sm"
   >
     <img
       alt="Vue logo"
@@ -13,7 +13,7 @@
     />
     <nav>
       <div
-        className="self-center flex justify-between gap-5 my-auto items-start font-bold"
+        class="self-center flex justify-between gap-5 my-auto items-start font-bold"
       >
         <div>Преимущества</div>
         <div>Вопросы</div>

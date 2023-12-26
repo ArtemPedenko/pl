@@ -3,14 +3,13 @@ const props = defineProps({
   pad: String,
   imgPath: String,
 });
-console.log(props); //ds
+console.log(props);
 </script>
 
 <template>
   <div
     :class="[
       pad ? pad : 'pr-[80px]',
-      // imgPath ? imgPath : '',
       'relative pl-[24px] py-[24px] flex flex-col gap-4 h-full bg-white rounded-2xl',
     ]"
   >

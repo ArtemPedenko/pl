@@ -3,8 +3,8 @@ import ProfitCard from "@/components/ProfitCard.vue";
 </script>
 
 <template>
-  <div class="max-w-[1920px] py-[80px]">
-    <div class="max-w-[1200px] w-full m-auto">
+  <div class="max-w-[1920px] py-[80px] bg-[#E3E9ED]">
+    <div class="max-w-[1200px] w-full m-auto flex flex-col gap-[40px]">
       <p class="text-[38px] font-bold">
         Что вы получите работая в Профит-Лиге?
       </p>
