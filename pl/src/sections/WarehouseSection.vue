@@ -45,7 +45,7 @@ const data = ref([
     class="max-w-[1920px] max-h-[880px] w-full h-screen flex justify-center items-center"
   >
     <div
-      class="border border-red-500 max-w-[1200px] w-full max-h-[730px] h-full flex flex-col justify-between"
+      class="max-w-[1200px] w-full max-h-[730px] h-full flex flex-col gap-[40px]"
     >
       <div class="flex flex-col">
         <p class="text-[38px] font-bold">Зоны работы на складе</p>
@@ -54,12 +54,14 @@ const data = ref([
           собеседования.
         </p>
       </div>
-      <div class="border border-red-500 flex flex-wrap">
+      <div class="h-full flex flex-wrap justify-between content-between">
         <WarehouseCard
           v-for="(item, index) in data"
-          :key="index"
-          :data="item.img"
           class="w-[580px] h-[288px]"
+          :key="index"
+          :imgPath="item.img"
+          :title="item.title"
+          :data="item.data"
         ></WarehouseCard>
       </div>
     </div>
