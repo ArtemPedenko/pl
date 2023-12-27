@@ -50,23 +50,23 @@ function accordeonHandler() {
 <style scoped>
 @keyframes open {
   0% {
-    height: 0;
+    max-height: 0;
   }
 
   100% {
     padding-top: 20px;
-    height: 150px;
+    max-height: 150px;
   }
 }
 
 @keyframes close {
   0% {
     padding-top: 20px;
-    height: 150px;
+    max-height: 150px;
   }
 
   100% {
-    height: 0;
+    max-height: 0;
     display: none;
   }
 }
