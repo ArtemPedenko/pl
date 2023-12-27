@@ -5,6 +5,7 @@ import Button from "@/components/Button.vue";
 <template>
   <div
     class="max-w-[1920px] max-h-[700px] w-full h-screen flex justify-center items-center"
+    id="reqistration"
   >
     <div
       class="z-20 flex max-w-[1200px] max-h-[540px] w-full h-screen bg-[#E3E9ED] rounded-[25px] overflow-hidden"
@@ -18,8 +19,8 @@ import Button from "@/components/Button.vue";
           Зарегистрируйтесь и позвольте нашим менеджерам предложить вам самые
           подходящие вакансии.
         </p>
-        <div class="w-[280px] h-[60px] text-[12px] text-white mt-[50px]">
-          <Button>Пройти регистрацию</Button>
+        <div class="w-[280px] h-[60px] text-[18px] text-white mt-[50px]">
+          <Button href="/registration">Пройти регистрацию</Button>
         </div>
       </div>
       <img

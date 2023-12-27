@@ -3,14 +3,14 @@ import ProfitCard from "@/components/ProfitCard.vue";
 </script>
 
 <template>
-  <div class="max-w-[1920px] py-[80px] bg-[#E3E9ED]">
+  <div class="max-w-[1920px] py-[80px] bg-[#E3E9ED]" id="profits">
     <div class="max-w-[1200px] w-full m-auto flex flex-col gap-[40px]">
       <p class="text-[38px] font-bold">
         Что вы получите работая в Профит-Лиге?
       </p>
       <div class="grid grid-cols-6 grid-rows-[192px_280px_144px] gap-5">
         <div class="col-span-3">
-          <ProfitCard pad="pr-[120px]" imgPath="/src/assets/profit1.png">
+          <ProfitCard pad="pr-[120px]" imgPath="src/assets/profit1.png">
             <template #heading>Конкурентная заработная плата</template>
             <template #paragraph
               >Мы оцениваем ваши усилия и навыки и стремимся предоставить вам
@@ -62,7 +62,7 @@ import ProfitCard from "@/components/ProfitCard.vue";
           </ProfitCard>
         </div>
         <div class="col-span-6 row-start-3">
-          <ProfitCard pad="pr-[120px]" imgPath="/src/images/profit6.png">
+          <ProfitCard pad="pr-[120px]" imgPath="/src/assets/profit6.png">
             <template #heading
               >Корпоративная скидка на все продаваемые бренды</template
             >

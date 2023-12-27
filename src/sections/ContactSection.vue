@@ -18,7 +18,7 @@ import Button from "@/components/Button.vue";
             сотрудников.
           </p>
           <div class="w-[300px] h-[60px] text-white text-[13px]">
-            <Button>Пройти регистрацию</Button>
+            <Button href="/registration">Пройти регистрацию</Button>
           </div>
         </div>
         <img

@@ -16,7 +16,7 @@ import Button from "@/components/Button.vue";
         Просим Вас пройти регистрацию. До встречи!
       </p>
       <div class="h-[80px] w-[415px] flex text-[24px] relative">
-        <Button>Пройти регистрацию</Button>
+        <Button href="/registration">Пройти регистрацию</Button>
         <img
           alt="Vue logo"
           class="absolute -left-[65px] -bottom-[10px] w-[45px] h-[101px]"

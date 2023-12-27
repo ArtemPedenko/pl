@@ -17,7 +17,7 @@ function accordeonHandler() {
       <div class="w-full font-bold text-[22px] border-b border-white py-[24px]">
         <slot name="question"></slot>
       </div>
-      <div class="cursor-pointer">
+      <div class="cursor-pointer flex justify-center items-center">
         <img
           v-if="accordeonRef === 1"
           @click="accordeonHandler"
@@ -71,9 +71,9 @@ function accordeonHandler() {
   }
 }
 .open {
-  animation: open 1s ease forwards;
+  animation: open 0.5s ease-in-out forwards;
 }
 .close {
-  animation: close 1s ease forwards;
+  animation: close 0.5s ease-in-out forwards;
 }
 </style>

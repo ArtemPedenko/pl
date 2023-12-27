@@ -19,7 +19,7 @@ const props = defineProps({
       <p class="text-[24px] font-bold">{{ title }}</p>
       <ul>
         <li v-for="(item, index) in data" :key="index" class="list-disc">
-          {{ item }}
+         {{ item }}
         </li>
       </ul>
     </div>

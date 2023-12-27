@@ -1,37 +1,70 @@
 <script setup lang="ts">
-import AccorderonSection from "@/components/AccorderonSection.vue";
+import AccorderonSection from "@/components/AccordeonSection.vue";
 
 const questions = [
-  "Какие документы нужны для оформления?",
-  "Когда выплачивается заработная плата?",
-  "Есть ли система штрафов?",
-  "Когда я могу пойти в отпуск?",
-  "Кем можно стать, работая на складе?",
-  "Как проходит обучение сотрудников склада?",
+  {
+    question: "Какие документы нужны для оформления?",
+    info: [
+      "Паспорт гражданина РФ.",
+      "Трудовая книжка или справка с предыдущего места работы.",
+      "Диплом об образовании или другие документы, подтверждающие квалификацию.",
+      "СНИЛС (Страховой номер индивидуального лицевого счёта).",
+      "Разрешение на работу для иностранных граждан.",
+    ],
+  },
+  {
+    question: "Когда выплачивается заработная плата?",
+    info: [
+      "Заработная плата выплачивается ежемесячно, до 10-го числа следующего месяца, на основе отработанных часов или фиксированной ставки, в соответствии с утвержденным графиком выплат.",
+    ],
+  },
+  {
+    question: "Есть ли система штрафов?",
+    info: [
+      "За опоздание более 15 минут - штраф 1% от заработной платы за каждую минуту.",
+      "Нарушение дресс-кода - штраф 2% от зарплаты.",
+      "Невыполнение сроков проекта - штраф 3% от заработной платы за каждый день задержки.",
+      "Использование личного телефона в рабочее время без разрешения - штраф 1% за каждый случай.",
+      "Неудовлетворительная оценка по внутренним аудитам - штраф 4% от месячной зарплаты.",
+    ],
+  },
+  {
+    question: "Когда я могу пойти в отпуск?",
+    info: [
+      "Cогласно трудовому договору, вы имеете право на отпуск после шести месяцев работы. Заявление о предстоящем отпуске следует подать за две недели до запланированной даты. ",
+    ],
+  },
+  {
+    question: "Кем можно стать, работая на складе?",
+    info: [
+      "Работая на складе, вы можете продвигаться от должности складского работника к более ответственным ролям, таким как старший кладовщик, логист, менеджер по снабжению или даже специалист по управлению запасами.",
+    ],
+  },
+  {
+    question: "Как проходит обучение сотрудников склада?",
+    info: [
+      "Обучение сотрудников склада включает знакомство с процедурами хранения, техникой погрузки/разгрузки. Обучение проводится опытными сотрудниками и включает практические уроки, обучение использованию складской техники и систем управления запасами.",
+    ],
+  },
 ];
 </script>
 
 <template>
   <div
     class="max-w-[1920px] w-full flex justify-center items-center bg-[#F1F4F5] py-[80px]"
+    id="questions"
   >
     <div class="max-w-[1200px] w-full min-h-[570px] flex flex-col">
       <p class="text-[38px] font-bold">Часто задаваемые вопросы</p>
       <div class="w-full h-full flex flex-col">
         <AccorderonSection v-for="(item, index) in questions">
           <template #question>
-            {{ item }}
+            {{ item.question }}
           </template>
           <template #info>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
-              tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute
-              iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint obcaecat cupiditat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <ul>
+              <li v-for="doc in item.info">- {{ doc }}</li>
+            </ul>
           </template>
         </AccorderonSection>
       </div>
