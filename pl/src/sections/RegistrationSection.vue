@@ -24,8 +24,8 @@ import Button from "@/components/Button.vue";
       </div>
       <img
         alt="register girl"
-        src="/src/assets/images/register-girl.png"
-        class="w-full h-full w-1/2 object-cover"
+        src="@/assets/images/register-girl.png"
+        class="h-full w-1/2 object-cover"
       />
     </div>
   </div>

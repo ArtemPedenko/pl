@@ -3,7 +3,7 @@ import WarehouseCard from "@/components/WarehouseCard.vue";
 import { ref } from "vue";
 const data = ref([
   {
-    img: "/src/assets/images/warehouse1.png",
+    img: "@/assets/images/warehouse1.png",
     title: "Участок приёмки",
     data: [
       "Штрихкодирование товаров и внесение данных в информационную систему",
@@ -12,7 +12,7 @@ const data = ref([
     ],
   },
   {
-    img: "/src/assets/images/warehouse2.png",
+    img: "@/assets/images/warehouse2.png",
     title: "Участок размещения",
     data: [
       "Перемещение товара от мест группировки с участка приема",
@@ -21,7 +21,7 @@ const data = ref([
     ],
   },
   {
-    img: "/src/assets/images/warehouse3.png",
+    img: "@/assets/images/warehouse3.png",
     title: "Участок отбора",
     data: [
       "Комплектация заказов с использованием ручного терминала",
@@ -30,7 +30,7 @@ const data = ref([
     ],
   },
   {
-    img: "/src/assets/images/warehouse4.png",
+    img: "@/assets/warehouse4.png",
     title: "Участок контроля",
     data: [
       "Проверка корректности комплектации заказов",

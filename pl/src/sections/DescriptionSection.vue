@@ -5,7 +5,7 @@
     class="max-w-[1920px] max-h-[1080px] w-full h-screen relative flex justify-center items-center"
   >
     <div
-      class="absolute -z-10 w-full h-full bg-[url('/src/assets/images/description.png')] bg-cover filter brightness-[40%] bg-center"
+      class="absolute -z-10 w-full h-full bg-[url('@/assets/images/description.png')] bg-cover filter brightness-[40%] bg-center"
     ></div>
     <div
       class="z-20 flex flex-col gap-[31px] max-w-[1160px] gap-[36px] bg-white rounded-[24px] p-[60px] text-[18px]"

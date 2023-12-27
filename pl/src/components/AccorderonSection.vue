@@ -17,22 +17,24 @@ function accordeonHandler() {
       <div class="w-full font-bold text-[22px] border-b border-white py-[24px]">
         <slot name="question"></slot>
       </div>
-      <img
-        v-if="accordeonRef === 1"
-        @click="accordeonHandler"
-        alt="asd"
-        src="@/assets/close.svg"
-        width="40"
-        height="40"
-      />
-      <img
-        v-else
-        @click="accordeonHandler"
-        alt="asd"
-        src="@/assets/add.svg"
-        width="40"
-        height="40"
-      />
+      <div class="cursor-pointer">
+        <img
+          v-if="accordeonRef === 1"
+          @click="accordeonHandler"
+          alt="asd"
+          src="@/assets/close.svg"
+          width="40"
+          height="40"
+        />
+        <img
+          v-else
+          @click="accordeonHandler"
+          alt="asd"
+          src="@/assets/add.svg"
+          width="40"
+          height="40"
+        />
+      </div>
     </div>
     <div
       :class="
