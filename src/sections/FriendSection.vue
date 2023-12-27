@@ -5,7 +5,7 @@
     class="max-w-[1920px] max-h-[1080px] w-full h-screen relative text-white flex justify-center items-center"
   >
     <div
-      class="absolute -z-10 w-full h-full bg-[url('@/assets/images/friend.png')] bg-cover filter brightness-[40%] bg-center"
+      class="absolute -z-10 w-full h-full bg-[url('@/assets/friend.png')] bg-cover filter brightness-[40%] bg-center"
     ></div>
     <div class="z-20 flex flex-col max-w-[640px] gap-[36px] text-center">
       <p class="text-[67px] font-bold">ПРИВЕДИ ДРУГА!</p>

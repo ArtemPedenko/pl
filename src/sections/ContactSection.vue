@@ -23,7 +23,7 @@ import Button from "@/components/Button.vue";
         </div>
         <img
           alt="contact"
-          src="@/assets/images/contact.png"
+          src="@/assets/contact.png"
           class="w-[584px] h-[376px] object-cover rounded-[24px]"
         />
       </div>
