@@ -17,7 +17,7 @@ import Button from "@/components/Button.vue";
             вопросы, связанные с наймом, увольнением, обучением и развитием
             сотрудников.
           </p>
-          <div class="w-[280px] h-[60px] text-white text-[13px]">
+          <div class="w-[300px] h-[60px] text-white text-[13px]">
             <Button>Пройти регистрацию</Button>
           </div>
         </div>

@@ -40,7 +40,7 @@ function accordeonHandler() {
       :class="
         accordeonRef === 0 ? 'hidden' : accordeonRef === 1 ? 'open' : 'close'
       "
-      class="overflow-hidden w-full bg-white"
+      class="overflow-hidden w-full"
     >
       <slot name="info"></slot>
     </div>
@@ -54,12 +54,14 @@ function accordeonHandler() {
   }
 
   100% {
+    padding-top: 20px;
     height: 150px;
   }
 }
 
 @keyframes close {
   0% {
+    padding-top: 20px;
     height: 150px;
   }
 
