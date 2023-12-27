@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const accordeonRef = ref(0);
-function accordeonHandler() {
-  if (accordeonRef.value !== 2 && accordeonRef.value !== 0) {
-    accordeonRef.value = 2;
+const accordionRef = ref(0);
+function accordionHandler() {
+  if (accordionRef.value !== 2 && accordionRef.value !== 0) {
+    accordionRef.value = 2;
   } else {
-    accordeonRef.value = 1;
+    accordionRef.value = 1;
   }
 }
 </script>
@@ -19,8 +19,8 @@ function accordeonHandler() {
       </div>
       <div class="cursor-pointer flex justify-center items-center">
         <img
-          v-if="accordeonRef === 1"
-          @click="accordeonHandler"
+          v-if="accordionRef === 1"
+          @click="accordionHandler"
           alt="asd"
           src="@/assets/close.svg"
           width="40"
@@ -28,7 +28,7 @@ function accordeonHandler() {
         />
         <img
           v-else
-          @click="accordeonHandler"
+          @click="accordionHandler"
           alt="asd"
           src="@/assets/add.svg"
           width="40"
@@ -38,7 +38,7 @@ function accordeonHandler() {
     </div>
     <div
       :class="
-        accordeonRef === 0 ? 'hidden' : accordeonRef === 1 ? 'open' : 'close'
+        accordionRef === 0 ? 'hidden' : accordionRef === 1 ? 'open' : 'close'
       "
       class="overflow-hidden w-full"
     >

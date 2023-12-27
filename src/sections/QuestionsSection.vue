@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import AccorderonSection from "@/components/AccordeonSection.vue";
+import AccordionSection from "@/components/AccordionSection.vue";
 
 const questions = [
   {
@@ -57,7 +57,7 @@ const questions = [
     <div class="max-w-[1200px] w-full min-h-[570px] flex flex-col">
       <p class="text-[38px] font-bold">Часто задаваемые вопросы</p>
       <div class="w-full h-full flex flex-col">
-        <AccorderonSection v-for="(item, index) in questions">
+        <AccordionSection v-for="(item, index) in questions">
           <template #question>
             {{ item.question }}
           </template>
@@ -66,7 +66,7 @@ const questions = [
               <li v-for="doc in item.info">- {{ doc }}</li>
             </ul>
           </template>
-        </AccorderonSection>
+        </AccordionSection>
       </div>
     </div>
   </div>
