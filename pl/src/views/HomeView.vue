@@ -7,6 +7,7 @@ import WarehouseSection from "@/sections/WarehouseSection.vue";
 import QuestionsSection from "@/sections/QuestionsSection.vue";
 import InterviewSection from "@/sections/InterviewSection.vue";
 import DescriptionSection from "@/sections/DescriptionSection.vue";
+import ContactSection from "@/sections/ContactSection.vue";
 </script>
 
 <template>
@@ -19,5 +20,6 @@ import DescriptionSection from "@/sections/DescriptionSection.vue";
     <QuestionsSection />
     <InterviewSection />
     <DescriptionSection />
+    <ContactSection />
   </main>
 </template>

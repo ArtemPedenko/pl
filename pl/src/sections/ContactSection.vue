@@ -1,0 +1,27 @@
+<script setup lang="ts"></script>
+
+<template>
+  <div
+    class="max-w-[1920px] max-h-[650px] w-full h-screen flex justify-center items-center"
+  >
+    <div class="max-w-[1200px] w-full h-[480px] flex flex-col">
+      <p class="text-[38px] font-bold">Свяжитесь с нашими HR-специалистами</p>
+      <div class="flex justify-between gap-[32px]">
+        <div class="flex flex-col justify-between">
+          <p class="w-[523px]">
+            Свяжитесь с нашими HR-специалистами и получите квалифицированную
+            помощь в области управления персоналом. Наша команда экспертов по
+            кадровым вопросам готова оказать вам поддержку и решить любые
+            вопросы, связанные с наймом, увольнением, обучением и развитием
+            сотрудников.
+          </p>
+        </div>
+        <img
+          alt="contact"
+          src="/src/assets/images/contact.png"
+          class="w-[584px] h-[376px] object-cover rounded-[24px]"
+        />
+      </div>
+    </div>
+  </div>
+</template>
