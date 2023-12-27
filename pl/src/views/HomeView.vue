@@ -3,6 +3,7 @@ import GreetingSection from "@/sections/GreetingSection.vue";
 import ProfitSection from "@/sections/ProfitSection.vue";
 import FriendSection from "@/sections/FriendSection.vue";
 import RegistrationSection from "@/sections/RegistrationSection.vue";
+import WarehouseSection from "@/sections/WarehouseSection.vue";
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import RegistrationSection from "@/sections/RegistrationSection.vue";
     <ProfitSection />
     <FriendSection />
     <RegistrationSection />
+    <WarehouseSection />
   </main>
 </template>

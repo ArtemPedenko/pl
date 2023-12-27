@@ -3,7 +3,6 @@ const props = defineProps({
   pad: String,
   imgPath: String,
 });
-console.log(props);
 </script>
 
 <template>
