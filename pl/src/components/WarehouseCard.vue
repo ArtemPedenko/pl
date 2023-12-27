@@ -4,7 +4,6 @@ const props = defineProps({
   title: String,
   data: Array,
 });
-console.log(props);
 </script>
 
 <template>

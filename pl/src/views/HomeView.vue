@@ -4,6 +4,7 @@ import ProfitSection from "@/sections/ProfitSection.vue";
 import FriendSection from "@/sections/FriendSection.vue";
 import RegistrationSection from "@/sections/RegistrationSection.vue";
 import WarehouseSection from "@/sections/WarehouseSection.vue";
+import QuestionsSection from "@/sections/QuestionsSection.vue";
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import WarehouseSection from "@/sections/WarehouseSection.vue";
     <FriendSection />
     <RegistrationSection />
     <WarehouseSection />
+    <QuestionsSection />
   </main>
 </template>
