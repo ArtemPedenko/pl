@@ -54,7 +54,9 @@ const questions = [
     class="max-w-[1920px] w-full flex justify-center items-center bg-[#F1F4F5] py-[80px]"
     id="questions"
   >
-    <div class="max-w-[1200px] w-full min-h-[570px] flex flex-col">
+    <div
+      class="max-w-[1200px] w-full min-h-[570px] flex flex-col max-xl:mx-[20px]"
+    >
       <p class="text-[38px] font-bold">Часто задаваемые вопросы</p>
       <div class="w-full h-full flex flex-col">
         <AccordionSection v-for="(item, index) in questions">
