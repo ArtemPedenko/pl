@@ -4,13 +4,20 @@ import ProfitCard from "@/components/ProfitCard.vue";
 
 <template>
   <div class="max-w-[1920px] py-[80px] bg-[#E3E9ED]" id="profits">
-    <div class="max-w-[1200px] w-full m-auto flex flex-col gap-[40px]">
+    <div
+      class="max-w-[1200px] w-full m-auto flex flex-col gap-[40px] max-xl:px-[20px]"
+    >
       <p class="text-[38px] font-bold">
         Что вы получите работая в Профит-Лиге?
       </p>
-      <div class="grid grid-cols-6 grid-rows-[192px_280px_144px] gap-5">
+      <div
+        class="grid grid-cols-6 grid-rows-[192px_280px_144px] max-xl:flex max-xl:flex-col gap-5"
+      >
         <div class="col-span-3">
-          <ProfitCard pad="pr-[120px]" imgPath="src/assets/profit1.png">
+          <ProfitCard
+            pad="pr-[120px] max-xl:pr-[150px] max-sm:pr-[24px]"
+            imgPath="src/assets/profit1.png"
+          >
             <template #heading>Конкурентная заработная плата</template>
             <template #paragraph
               >Мы оцениваем ваши усилия и навыки и стремимся предоставить вам
@@ -20,7 +27,10 @@ import ProfitCard from "@/components/ProfitCard.vue";
           </ProfitCard>
         </div>
         <div class="col-span-3 col-start-4">
-          <ProfitCard pad="pr-[120px]" imgPath="/src/assets/profit2.png">
+          <ProfitCard
+            pad="pr-[120px] max-xl:pr-[150px] max-sm:pr-[24px]"
+            imgPath="/src/assets/profit2.png"
+          >
             <template #heading>Комфортные условия труда</template>
             <template #paragraph
               >Мы стремимся создать здоровую и безопасную рабочую среду. У нас
@@ -30,7 +40,10 @@ import ProfitCard from "@/components/ProfitCard.vue";
           </ProfitCard>
         </div>
         <div class="col-span-2 row-start-2">
-          <ProfitCard imgPath="/src/assets/profit3.png">
+          <ProfitCard
+            pad="pr-[80px] max-xl:pr-[150px] max-sm:pr-[24px]"
+            imgPath="/src/assets/profit3.png"
+          >
             <template #heading>Интересные задачи</template>
             <template #paragraph
               >Ваша работа вносит реальный вклад в успех нашей компании. У вас
@@ -40,7 +53,10 @@ import ProfitCard from "@/components/ProfitCard.vue";
           </ProfitCard>
         </div>
         <div class="col-span-2 col-start-3 row-start-2">
-          <ProfitCard imgPath="/src/assets/profit4.png">
+          <ProfitCard
+            pad="pr-[80px] max-xl:pr-[150px] max-sm:pr-[24px]"
+            imgPath="/src/assets/profit4.png"
+          >
             <template #heading
               >Возможность работать в команде профессионалов</template
             >
@@ -52,7 +68,10 @@ import ProfitCard from "@/components/ProfitCard.vue";
           </ProfitCard>
         </div>
         <div class="col-span-2 col-start-5 row-start-2">
-          <ProfitCard imgPath="/src/assets/profit5.png">
+          <ProfitCard
+            pad="pr-[80px] max-xl:pr-[150px] max-sm:pr-[24px]"
+            imgPath="/src/assets/profit5.png"
+          >
             <template #heading>Насыщенная корпоративная жизнь</template>
             <template #paragraph
               >Мы регулярно проводим различные мероприятия, такие как семинары,
@@ -62,7 +81,10 @@ import ProfitCard from "@/components/ProfitCard.vue";
           </ProfitCard>
         </div>
         <div class="col-span-6 row-start-3">
-          <ProfitCard pad="pr-[120px]" imgPath="/src/assets/profit6.png">
+          <ProfitCard
+            pad="pr-[120px] max-xl:pr-[150px] max-sm:pr-[24px]"
+            imgPath="/src/assets/profit6.png"
+          >
             <template #heading
               >Корпоративная скидка на все продаваемые бренды</template
             >

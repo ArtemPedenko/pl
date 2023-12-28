@@ -9,7 +9,7 @@ const props = defineProps({
   <div
     :class="[
       pad ? pad : 'pr-[80px]',
-      'relative pl-[24px] py-[24px] flex flex-col gap-4 h-full bg-white rounded-2xl',
+      'relative pl-[24px] py-[24px] flex flex-col gap-4 h-full bg-white rounded-2xl overflow-hidden',
     ]"
   >
     <p class="text-[22px] font-bold">
@@ -23,7 +23,7 @@ const props = defineProps({
     <img
       alt="profit logo"
       :src="imgPath"
-      class="absolute w-[139px] h-[139px] [float:right] bottom-0 right-0 [z-index:1]"
+      class="absolute w-[139px] h-[139px] [float:right] bottom-0 right-0 [z-index:1] max-sm:static max-sm:m-auto"
     />
   </div>
 </template>
