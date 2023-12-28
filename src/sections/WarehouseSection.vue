@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import WarehouseCard from "@/components/WarehouseCard.vue";
-import { ref } from "vue";
-const data = ref([
+const data = [
   {
     img: "/src/assets/warehouse1.png",
     title: "Участок приёмки",
@@ -37,7 +36,7 @@ const data = ref([
       "Упаковка и тарификация отсортированного товара",
     ],
   },
-]);
+];
 </script>
 
 <template>

@@ -4,10 +4,10 @@ import Button from "@/components/Button.vue";
 
 <template>
   <div
-    class="bg-[url('/src/assets/greeting.png')] bg-cover bg-gray bg-opacity-50 bg-center max-w-[1920px] h-[640px] text-white"
+    class="bg-[url('/src/assets/greeting.png')] bg-cover bg-gray bg-opacity-50 bg-center max-w-[1920px] h-[640px] text-white flex justify-center"
   >
     <div
-      class="max-w-[1200px] w-full m-auto pt-[130px] flex flex-col gap-[32px]"
+      class="max-w-[1200px]  w-full  pt-[130px] flex flex-col gap-[32px]"
     >
       <h1 class="text-[56px] max-w-[700px] font-bold">
         Вы приглашены на онлайн-собеседование.

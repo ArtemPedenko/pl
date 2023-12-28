@@ -3,11 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: {
-        black: "#02102D",
-        green: "#197A81",
-        light_green: "#e3e2dc",
+      screens: {
+        sm: "390px",
+        md: '600px',
+        lg: "768px",
+        xl: "1200px",
       },
+      
       fontFamily: {
         sans: "Arial",
       },
