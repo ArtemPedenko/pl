@@ -1,5 +1,12 @@
 <script setup lang="ts">
 import ProfitCard from "@/components/ProfitCard.vue";
+//при билде почему-то картинки, прокинутые пропасми не попадают в билд
+const img1 = new URL("@/assets/profit1.png", import.meta.url).pathname;
+const img2 = new URL("@/assets/profit2.png", import.meta.url).pathname;
+const img3 = new URL("@/assets/profit3.png", import.meta.url).pathname;
+const img4 = new URL("@/assets/profit4.png", import.meta.url).pathname;
+const img5 = new URL("@/assets/profit5.png", import.meta.url).pathname;
+const img6 = new URL("@/assets/profit6.png", import.meta.url).pathname;
 </script>
 
 <template>
@@ -16,7 +23,7 @@ import ProfitCard from "@/components/ProfitCard.vue";
         <div class="col-span-3">
           <ProfitCard
             pad="pr-[120px] max-xl:pr-[150px] max-sm:pr-[24px]"
-            imgPath="src/assets/profit1.png"
+            :imgPath="img1"
           >
             <template #heading>Конкурентная заработная плата</template>
             <template #paragraph
@@ -29,7 +36,7 @@ import ProfitCard from "@/components/ProfitCard.vue";
         <div class="col-span-3 col-start-4">
           <ProfitCard
             pad="pr-[120px] max-xl:pr-[150px] max-sm:pr-[24px]"
-            imgPath="/src/assets/profit2.png"
+            :imgPath="img2"
           >
             <template #heading>Комфортные условия труда</template>
             <template #paragraph
@@ -42,7 +49,7 @@ import ProfitCard from "@/components/ProfitCard.vue";
         <div class="col-span-2 row-start-2">
           <ProfitCard
             pad="pr-[80px] max-xl:pr-[150px] max-sm:pr-[24px]"
-            imgPath="/src/assets/profit3.png"
+            :imgPath="img3"
           >
             <template #heading>Интересные задачи</template>
             <template #paragraph
@@ -55,7 +62,7 @@ import ProfitCard from "@/components/ProfitCard.vue";
         <div class="col-span-2 col-start-3 row-start-2">
           <ProfitCard
             pad="pr-[80px] max-xl:pr-[150px] max-sm:pr-[24px]"
-            imgPath="/src/assets/profit4.png"
+            :imgPath="img4"
           >
             <template #heading
               >Возможность работать в команде профессионалов</template
@@ -70,7 +77,7 @@ import ProfitCard from "@/components/ProfitCard.vue";
         <div class="col-span-2 col-start-5 row-start-2">
           <ProfitCard
             pad="pr-[80px] max-xl:pr-[150px] max-sm:pr-[24px]"
-            imgPath="/src/assets/profit5.png"
+            :imgPath="img5"
           >
             <template #heading>Насыщенная корпоративная жизнь</template>
             <template #paragraph
@@ -83,7 +90,7 @@ import ProfitCard from "@/components/ProfitCard.vue";
         <div class="col-span-6 row-start-3">
           <ProfitCard
             pad="pr-[120px] max-xl:pr-[150px] max-sm:pr-[24px]"
-            imgPath="/src/assets/profit6.png"
+            :imgPath="img6"
           >
             <template #heading
               >Корпоративная скидка на все продаваемые бренды</template
