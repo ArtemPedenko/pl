@@ -55,14 +55,14 @@ function accordionHandler() {
 
   100% {
     padding-top: 20px;
-    max-height: 150px;
+    max-height: 400px;
   }
 }
 
 @keyframes close {
   0% {
     padding-top: 20px;
-    max-height: 150px;
+    max-height: 400px;
   }
 
   100% {
