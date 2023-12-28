@@ -1,8 +1,15 @@
 <script setup lang="ts">
 import WarehouseCard from "@/components/WarehouseCard.vue";
+
+//при билде почему-то картинки, прокинутые пропасми не попадают в билд
+const img1 = new URL("@/assets/warehouse1.png", import.meta.url).pathname;
+const img2 = new URL("@/assets/warehouse2.png", import.meta.url).pathname;
+const img3 = new URL("@/assets/warehouse3.png", import.meta.url).pathname;
+const img4 = new URL("@/assets/warehouse4.png", import.meta.url).pathname;
+
 const data = [
   {
-    img: "/src/assets/warehouse1.png",
+    img: img1,
     title: "Участок приёмки",
     data: [
       "Штрихкодирование товаров и внесение данных в информационную систему",
@@ -11,7 +18,7 @@ const data = [
     ],
   },
   {
-    img: "/src/assets/warehouse2.png",
+    img: img2,
     title: "Участок размещения",
     data: [
       "Перемещение товара от мест группировки с участка приема",
@@ -20,7 +27,7 @@ const data = [
     ],
   },
   {
-    img: "/src/assets/warehouse3.png",
+    img: img3,
     title: "Участок отбора",
     data: [
       "Комплектация заказов с использованием ручного терминала",
@@ -29,7 +36,7 @@ const data = [
     ],
   },
   {
-    img: "/src/assets/warehouse4.png",
+    img: img4,
     title: "Участок контроля",
     data: [
       "Проверка корректности комплектации заказов",
