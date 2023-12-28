@@ -13,13 +13,13 @@ const props = defineProps({
     <img
       alt="warehouse image"
       :src="imgPath"
-      class="w-[201px] h-[256px] rounded-[8px] object-cover filter brightness-[80%]"
+      class="w-[201px] h-[256px] rounded-[8px] object-cover filter brightness-[80%] max-md:hidden"
     />
-    <div>
+    <div class="max-md:ml-[20px]">
       <p class="text-[24px] font-bold">{{ title }}</p>
       <ul>
         <li v-for="(item, index) in data" :key="index" class="list-disc">
-         {{ item }}
+          {{ item }}
         </li>
       </ul>
     </div>

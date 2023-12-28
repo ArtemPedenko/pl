@@ -40,12 +40,8 @@ const data = [
 </script>
 
 <template>
-  <div
-    class="max-w-[1920px] max-h-[880px] w-full h-screen flex justify-center items-center"
-  >
-    <div
-      class="max-w-[1200px] w-full max-h-[730px] h-full flex flex-col gap-[40px]"
-    >
+  <div class="max-w-[1920px] py-[40px] w-full flex justify-center">
+    <div class="max-w-[1200px] w-full flex flex-col gap-[20px] mx-[20px]">
       <div class="flex flex-col">
         <p class="text-[38px] font-bold">Зоны работы на складе</p>
         <p class="text-[24px]">
@@ -53,10 +49,12 @@ const data = [
           собеседования.
         </p>
       </div>
-      <div class="h-full flex flex-wrap justify-between content-between">
+      <div
+        class="h-full flex flex-wrap justify-between content-between gap-[30px]"
+      >
         <WarehouseCard
           v-for="(item, index) in data"
-          class="w-[580px] h-[288px]"
+          class="w-[48%] max-xl:w-full"
           :key="index"
           :imgPath="item.img"
           :title="item.title"

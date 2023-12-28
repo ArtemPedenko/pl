@@ -7,7 +7,7 @@ import Button from "@/components/Button.vue";
     class="bg-[url('/src/assets/greeting.png')] bg-cover bg-gray bg-opacity-50 bg-center max-w-[1920px] h-[640px] text-white flex justify-center"
   >
     <div
-      class="border border-red-500 max-w-[1200px] w-full pt-[130px] flex flex-col gap-[32px] max-xl:mx-[20px] max-md:gap-[50px]"
+      class="max-w-[1200px] w-full pt-[130px] flex flex-col gap-[32px] max-xl:mx-[20px] max-md:gap-[50px]"
     >
       <h1
         class="text-[56px] max-w-[700px] font-bold max-lg:text-[40px] max-sm:text-[30px]"
