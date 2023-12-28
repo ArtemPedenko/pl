@@ -5,11 +5,12 @@ export default {
     extend: {
       screens: {
         sm: "390px",
-        md: '600px',
+        md: "600px",
         lg: "768px",
+        slg: "1024px",
         xl: "1200px",
       },
-      
+
       fontFamily: {
         sans: "Arial",
       },

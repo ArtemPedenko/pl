@@ -2,19 +2,19 @@
 
 <template>
   <div
-    class="max-w-[1920px] max-h-[835px] w-full h-screen flex justify-center py-[80px]"
+    class="max-w-[1920px] w-full flex justify-center py-[80px] border border-red-500"
   >
-    <div class="max-w-[1200px] w-full h-full flex flex-col">
+    <div class="max-w-[1200px] w-full flex flex-col max-xl:mx-[20px]">
       <p class="text-[38px] font-bold">Как попасть на Online-собеседование?</p>
       <p class="text-[24px]">
         Первый этап собеседования проходит он-лайн, после регистрации в кабинете
         соискателя.
       </p>
-      <div class="flex flex-col mt-[40px]">
+      <div class="flex flex-col mt-[40px] max-slg:gap-[20px]">
         <div
           class="items-stretch self-stretch flex justify-between gap-5 max-md:max-w-full max-md:flex-wrap"
         >
-          <div class="flex flex-col pt-12">
+          <div class="flex flex-col pt-12 max-slg:hidden">
             <div
               class="bg-[#00AB2E] flex flex-col w-[24px] h-[24px] rounded-[100px]"
             />
@@ -37,7 +37,7 @@
         <div
           class="items-stretch self-stretch flex justify-between gap-5 max-md:max-w-full max-md:flex-wrap"
         >
-          <div class="flex flex-col">
+          <div class="flex flex-col max-slg:hidden">
             <div
               class="bg-neutral-200 self-center flex w-0.5 h-[58px] flex-col"
             />
@@ -64,7 +64,7 @@
         <div
           class="items-stretch self-stretch flex justify-between gap-5 max-md:max-w-full max-md:flex-wrap"
         >
-          <div class="flex flex-col">
+          <div class="flex flex-col max-slg:hidden">
             <div
               class="bg-neutral-200 self-center flex w-0.5 h-[63px] flex-col"
             />
