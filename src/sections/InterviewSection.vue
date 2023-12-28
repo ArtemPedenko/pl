@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div
-    class="max-w-[1920px] w-full flex justify-center py-[80px] border border-red-500"
-  >
+  <div class="max-w-[1920px] w-full flex justify-center py-[80px]">
     <div class="max-w-[1200px] w-full flex flex-col max-xl:mx-[20px]">
       <p class="text-[38px] font-bold">Как попасть на Online-собеседование?</p>
       <p class="text-[24px]">
