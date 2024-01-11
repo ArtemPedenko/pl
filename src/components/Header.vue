@@ -17,7 +17,9 @@ function accordionHandler() {
 }
 </script>
 <template>
-  <header class="h-[80px] flex items-center justify-center text-sm relative">
+  <header
+    class="h-[80px] max-w-[1920px] flex items-center justify-center text-sm relative"
+  >
     <div
       class="max-w-[1200px] w-full h-full flex justify-between items-center mx-[20px]"
     >
